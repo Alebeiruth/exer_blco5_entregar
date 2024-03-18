@@ -2,7 +2,6 @@
 library(VennDiagram)
 
 #Atividade da Semana 5
-
 #criacao das populacoes
 
 populTotal <- 50
@@ -41,7 +40,6 @@ servicoUm
 serviUsados <- populA + populB + populC - populAB - populAC - populBC + populABC
 menosUmServico <- serviUsados / populTotal
 menosUmServico
-
 
 #diamagrama venn
 
